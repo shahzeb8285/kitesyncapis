@@ -1,0 +1,43 @@
+[
+
+
+  {
+    "name": "kite-kite-busd",
+    "address": "0xf1a65717F86056C3bf137035AC1dE07e5a3f9a67",
+    "decimals": "1e18",
+    "poolId": 1,
+    "chainId": 56,
+    "lp0": {
+      "address": "0xeDe26a1ee14281b58A5238a3ff246b02358A13B6",
+      "oracle": "tokens",
+      "oracleId": "KITE",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "oracle": "tokens",
+      "oracleId": "BUSD",
+      "decimals": "1e18"
+    }
+  },
+
+  {
+    "name": "kite-kite-bnb",
+    "address": "0xd241cE6EB676D753be11ab01582DCE08752AaAA0",
+    "decimals": "1e18",
+    "poolId": 2,
+    "chainId": 56,
+    "lp0": {
+      "address": "0xeDe26a1ee14281b58A5238a3ff246b02358A13B6",
+      "oracle": "tokens",
+      "oracleId": "KITE",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "oracle": "tokens",
+      "oracleId": "WBNB",
+      "decimals": "1e18"
+    }
+  }
+]
