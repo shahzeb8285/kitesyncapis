@@ -134,6 +134,10 @@ import yelPools from '../../data/degens/yelLpPools.json';
 import omnifarmPools from '../../data/degens/omnifarmLpPools.json';
 import viralataLpPools from '../../data/degens/viralataLpPools.json';
 import joePools from '../../data/avax/joeLpPools.json';
+import joeDualPools from '../../data/avax/joeDualLpPools.json';
+
+import pltPools from '../../data/avax/pltLpPool.json';
+
 import elkPools from '../../data/degens/elkLpPools.json';
 import longPools from '../../data/degens/longLpPools.json';
 import CZFPools from '../../data/degens/CZFLpPools.json';
@@ -166,7 +170,9 @@ const pools = [
   // ...longPools,
   // ...elkPools,
   // ...viralataLpPools,
-  // ...joePools,
+  ...joePools,
+  ...joeDualPools,
+  ...pltPools,
   // ...omnifarmPools,
   // ...tosdisPools,
   // ...yelPools,

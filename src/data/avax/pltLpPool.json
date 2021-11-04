@@ -1,0 +1,19 @@
+[{
+  "name": "plt-plt-avax",
+  "address": "0x6b3e8ea015e05211d785b032b235f3d358c33f86",
+  "decimals": "1e18",
+  "poolId": 1,
+  "chainId": 43114,
+  "lp0": {
+    "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+    "oracle": "tokens",
+    "oracleId": "AVAX",
+    "decimals": "1e18"
+  },
+  "lp1": {
+    "address": "0xeCfE536a209e405Db19887830b366E397f5B917a",
+    "oracle": "tokens",
+    "oracleId": "PLT",
+    "decimals": "1e18"
+  }
+}]

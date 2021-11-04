@@ -5,21 +5,30 @@ const getSnobLpApys = require('./getSnobLpApys');
 const getGondolaLpApys = require('./getGondolaLpApys');
 const getComAvaxApys = require('./getComAvaxLpApys');
 const getAvaxBifiMaxiApy = require('./getAvaxBifiMaxiApy');
+
 const getJoeApys = require('./getJoeLpApys');
+const getDualJoeApys = require('./getJoeDualLPApys');
+
+const getPLTLpApys = require('./getPLTLpApys');
+const getPLTPoolApy = require('./getPLTPoolApy');
+
 const getJoeApy = require('./getJoeApy');
 const getPangolinPNGApy = require('./getPangolinPNGApy');
 
 const getApys = [
-  getComAvaxApys,
-  getLydLpApys,
-  getPangolinApys,
-  getSnobLpApys,
-  getOliveApys,
-  getGondolaLpApys,
-  getAvaxBifiMaxiApy,
+  // getComAvaxApys,
+  // getLydLpApys,
+  // getPangolinApys,
+  // getSnobLpApys,
+  // getOliveApys,
+  // getGondolaLpApys,
+  // getAvaxBifiMaxiApy,
   getJoeApys,
+  getDualJoeApys,
   getJoeApy,
-  getPangolinPNGApy,
+  getPLTLpApys,
+  getPLTPoolApy
+  // getPangolinPNGApy,
 ];
 
 const getAvaxApys = async () => {
