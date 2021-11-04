@@ -28,7 +28,7 @@ const updateApys = async () => {
       getAvaxApys(),
       // getFantomApys(),
       // getHecoApys(),
-      // getBSCApys(),
+      getBSCApys(),
       // getOneApys(),
       // getArbitrumApys(),
     ]);
