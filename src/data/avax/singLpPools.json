@@ -1,0 +1,64 @@
+
+[
+  {
+    "name": "sing-plt-avax",
+    "address": "0x6b3e8ea015e05211d785b032b235f3d358c33f86",
+    "decimals": "1e18",
+    "poolId": 22,
+    "chainId": 43114,
+    "lp0": {
+      "address": "0xeCfE536a209e405Db19887830b366E397f5B917a",
+      "oracle": "tokens",
+      "oracleId": "PLT",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "oracle": "tokens",
+      "oracleId": "AVAX",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "sing-sing-avax",
+    "address": "0x6b3e8ea015e05211d785b032b235f3d358c33f86",
+    "decimals": "1e18",
+    "poolId": 1,
+    "chainId": 43114,
+    "lp0": {
+      "address": "0xF9A075C9647e91410bF6C402bDF166e1540f67F0",
+      "oracle": "tokens",
+      "oracleId": "SING",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "oracle": "tokens",
+      "oracleId": "AVAX",
+      "decimals": "1e18"
+    }
+  },
+
+  {
+    "name": "sing-sing-usdt.e",
+    "address": "0x42b33de8faa08f9242f9e20d268fbd251dcebd72",
+    "decimals": "1e18",
+    "poolId": 0,
+    "chainId": 43114,
+    "lp0": {
+      "address": "0xF9A075C9647e91410bF6C402bDF166e1540f67F0",
+      "oracle": "tokens",
+      "oracleId": "SING",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
+      "oracle": "tokens",
+      "oracleId": "USDT.e",
+      "decimals": "1e6"
+    }
+  }
+
+ 
+
+]

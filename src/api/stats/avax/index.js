@@ -9,6 +9,11 @@ const getAvaxBifiMaxiApy = require('./getAvaxBifiMaxiApy');
 const getJoeApys = require('./getJoeLpApys');
 const getDualJoeApys = require('./getJoeDualLPApys');
 
+
+
+const getSingPoolApy = require('./getSingPoolApy');
+const getSingLPApys = require('./getSingLpApys');
+
 const getPLTLpApys = require('./getPLTLpApys');
 const getPLTPoolApy = require('./getPLTPoolApy');
 
@@ -26,8 +31,13 @@ const getApys = [
   getJoeApys,
   getDualJoeApys,
   getJoeApy,
+
+
   getPLTLpApys,
-  getPLTPoolApy
+  getPLTPoolApy,
+
+  getSingLPApys,
+  // getSingPoolApy
   // getPangolinPNGApy,
 ];
 
