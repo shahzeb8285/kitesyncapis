@@ -68,6 +68,8 @@ const MULTICHAIN_RPC: Record<ChainId, string> = {
   [ChainId.one]: ONE_RPC,
   [ChainId.arbitrum]: ARBITRUM_RPC,
 };
+const JOE_LPF = 0.0025;
+
 
 const BSC_VAULTS_ENDPOINT =
   'https://raw.githubusercontent.com/beefyfinance/beefy-app/prod/src/features/configure/vault/bsc_pools.js';
@@ -141,4 +143,5 @@ export {
   SPOOKY_LPF,
   BEEFY_PERFORMANCE_FEE,
   SHARE_AFTER_PERFORMANCE_FEE,
+  JOE_LPF
 };

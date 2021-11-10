@@ -32,9 +32,7 @@ const getYearlyRewardsInUsd = async (masterChefAddr, oracle, oracleId) => {
   const toBlock = fromBlock + 1;
   const masterChefContract = new web3.eth.Contract(MasterChef, masterChefAddr);
 
-  const multiplier = new BigNumber(
-    await masterChefContract.methods.getMultiplier(fromBlock, toBlock).call()
-  );
+
   const blockRewards = new BigNumber(await masterChefContract.methods.singPerSec().call());
 
   let { allocPoint } = await masterChefContract.methods.poolInfo(2).call();
@@ -42,7 +40,6 @@ const getYearlyRewardsInUsd = async (masterChefAddr, oracle, oracleId) => {
 
   const totalAllocPoint = new BigNumber(await masterChefContract.methods.totalAllocPoint().call());
   const poolBlockRewards = blockRewards
-    .times(multiplier)
     .times(allocPoint)
     .dividedBy(totalAllocPoint);
 

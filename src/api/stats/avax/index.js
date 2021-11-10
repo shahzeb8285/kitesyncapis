@@ -37,6 +37,7 @@ const getApys = [
   getPLTPoolApy,
 
   getSingLPApys,
+  getSingPoolApy
   // getSingPoolApy
   // getPangolinPNGApy,
 ];
