@@ -139,6 +139,7 @@ import joePools from '../../data/avax/joeLpPools.json';
 import joeDualPools from '../../data/avax/joeDualLpPools.json';
 import singLpPools from '../../data/avax/singLpPools.json';
 import pltPools from '../../data/avax/pltLpPool.json';
+import elkAvaxPools from '../../data/degens/elkAvaxLpPools.json';
 
 import elkPools from '../../data/degens/elkLpPools.json';
 import longPools from '../../data/degens/longLpPools.json';
@@ -164,6 +165,8 @@ const pools = [
   ...joeDualPools,
   ...pltPools,
   ...singLpPools,
+
+  ...elkAvaxPools,
 
   // ...polywisePools,
   // ...pacocaPools,

@@ -1,0 +1,112 @@
+[
+  {
+    "name": "elk-elk-joe",
+    "address": "0xDc4000aCBE8f9D6aA81696657927588ccA2823Ec",
+    "rewardPool": "0x41537105d5702f77a0e04cfdf5519aa9739ae683",
+    "decimals": "1e18",
+    "chainId": 43114,
+    "lp0": {
+      "address": "0xE1C110E1B1b4A1deD0cAf3E42BfBdbB7b5d7cE1C",
+      "oracle": "tokens",
+      "oracleId": "ELK",
+      "decimals": "1e18"
+    },
+    "lp1": {
+     "address": "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd",
+      "oracle": "tokens",
+      "oracleId": "JOE",
+      "decimals": "1e18"
+    }
+  },
+
+
+  {
+    "name": "elk-elk-weth",
+    "address": "0xaf91700c900a1c348b277be5adcd9458c3007254",
+    "rewardPool": "0xd3641c0ebe0361de44d0298e165943b6b0422d98",
+    "decimals": "1e18",
+    "chainId": 43114,
+    "lp0": {
+      "address": "0xE1C110E1B1b4A1deD0cAf3E42BfBdbB7b5d7cE1C",
+      "oracle": "tokens",
+      "oracleId": "ELK",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+      "oracle": "tokens",
+      "oracleId": "WETH.e",
+      "decimals": "1e18"
+    }
+  },
+
+
+  {
+    "name": "elk-elk-usdt",
+    "address": "0x1aeb1def5b064df8e4470e57af17df72961a9ef8",
+    "rewardPool": "0x482dCc1B2477D44aF818d7A9b0d1F545356CB58a",
+    "decimals": "1e18",
+    "chainId": 43114,
+    "lp0": {
+      "address": "0xE1C110E1B1b4A1deD0cAf3E42BfBdbB7b5d7cE1C",
+      "oracle": "tokens",
+      "oracleId": "ELK",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xc7198437980c041c805A1EDcbA50c1Ce5db95118",
+      "oracle": "tokens",
+      "oracleId": "USDT.e",
+      "decimals": "1e6"
+    }
+  },
+
+
+
+  {
+    "name": "elk-elk-dai",
+    "address": "0x27f382534916520f178bf9e201db4cd8172cc7d2",
+    "rewardPool": "0xAfdb3f79ac7DE9d8E95C6e774F222959Cc99E889",
+    "decimals": "1e18",
+    "chainId": 43114,
+    "lp0": {
+      "address": "0xE1C110E1B1b4A1deD0cAf3E42BfBdbB7b5d7cE1C",
+      "oracle": "tokens",
+      "oracleId": "ELK",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
+      "oracle": "tokens",
+      "oracleId": "DAI.e",
+      "decimals": "1e18"
+    }
+  },
+
+  {
+    "name": "elk-elk-wavax",
+    "address": "0x2612da8fc26efbca3cc3f8fd543bcba72b10ab59",
+    "rewardPool": "0x9ec3ca469f415a7e55a21dc662d427d59e8de8f6",
+    "decimals": "1e18",
+    "chainId": 43114,
+    "lp0": {
+      "address": "0xE1C110E1B1b4A1deD0cAf3E42BfBdbB7b5d7cE1C",
+      "oracle": "tokens",
+      "oracleId": "ELK",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "oracle": "tokens",
+      "oracleId": "AVAX",
+      "decimals": "1e18"
+    }
+  }
+
+
+
+
+
+  
+
+]

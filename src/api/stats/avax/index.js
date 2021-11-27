@@ -19,6 +19,7 @@ const getPLTPoolApy = require('./getPLTPoolApy');
 
 const getJoeApy = require('./getJoeApy');
 const getPangolinPNGApy = require('./getPangolinPNGApy');
+const getElkApys = require('./elk/getElkApys');
 
 const getApys = [
   // getComAvaxApys,
@@ -29,10 +30,12 @@ const getApys = [
   // getGondolaLpApys,
   // getAvaxBifiMaxiApy,
   getJoeApys,
+  getElkApys,
+
   getDualJoeApys,
   getJoeApy,
 
-
+  
   getPLTLpApys,
   getPLTPoolApy,
 
