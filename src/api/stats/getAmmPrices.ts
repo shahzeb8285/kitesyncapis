@@ -167,6 +167,7 @@ const pools = [
   ...singLpPools,
 
   ...elkAvaxPools,
+  ...lydPools,
 
   // ...polywisePools,
   // ...pacocaPools,
@@ -256,7 +257,6 @@ const pools = [
   // ...krillPools,
   // ...sushiLpPools,
   // ...quickPools,
-  // ...lydPools,
   // ...icarusPools,
   // ...hfiPools,
   // ...comethPools,

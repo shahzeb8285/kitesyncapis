@@ -23,7 +23,6 @@ const getElkApys = require('./elk/getElkApys');
 
 const getApys = [
   // getComAvaxApys,
-  // getLydLpApys,
   // getPangolinApys,
   // getSnobLpApys,
   // getOliveApys,
@@ -31,6 +30,7 @@ const getApys = [
   // getAvaxBifiMaxiApy,
   getJoeApys,
   getElkApys,
+  getLydLpApys,
 
   getDualJoeApys,
   getJoeApy,
