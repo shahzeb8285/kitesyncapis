@@ -21,6 +21,27 @@
 
 
   {
+    "name": "elk-elk-plt",
+    "address": "0x70CD9aa27b7a6fEe03F9683aAbD742D77B584012",
+    "rewardPool": "0x83f1237728ECAfd010B1b593B947d2E44A3fAc25",
+    "decimals": "1e18",
+    "chainId": 43114,
+    "lp0": {
+      "address": "0xE1C110E1B1b4A1deD0cAf3E42BfBdbB7b5d7cE1C",
+      "oracle": "tokens",
+      "oracleId": "ELK",
+      "decimals": "1e18"
+    },
+    "lp1": {
+     "address": "0xeCfE536a209e405Db19887830b366E397f5B917a",
+      "oracle": "tokens",
+      "oracleId": "PLT",
+      "decimals": "1e18"
+    }
+  },
+
+
+  {
     "name": "elk-elk-weth",
     "address": "0xaf91700c900a1c348b277be5adcd9458c3007254",
     "rewardPool": "0xd3641c0ebe0361de44d0298e165943b6b0422d98",
